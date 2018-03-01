@@ -11,4 +11,7 @@ function daysBetween(start, end) {
   ).toString();
 }
 
-// Usee Data
+/ * */;
+
+console.log('Days of 1970: ', daysBetween('01/01/1970', 'December 31, 1970'));
+console.log('Days of 2018: ', daysBetween('01/01/2018', 'March 1, 2018'));
